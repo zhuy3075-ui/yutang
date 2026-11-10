@@ -1,0 +1,18 @@
+node_modules/
+dist/
+release/
+work/
+electron/native/bin/
+.DS_Store
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Local verification output
+test-results/
+playwright-report/
+__pycache__/
+*.pyc
